@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form|Sanskar</title>
+    <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
+    <h1>. . . Welcome To Form . . .</h1>
     <form action="post">
-        <label for="name"></label>
-        <input type="text" id="name" name="username" placeholder="Enter Your Name Here">
-        <input type="radio" id="male" name="Gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="Gender" value="female">
-        <label for="female"></label>
+        <div><label for="name">Username</label>
+            <input type="text" id="name" name="username" placeholder="Enter Your Name Here">
+        </div>
+        <div><input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" name="Checklist">
+            <label for="checkbox">Completion of tasks</label>
+        </div>
+        <div>
+            <label for="textarea">Comments:</label>
+            <br>
+            <textarea name="Comment" id="Comment" cols="50" rows="8">Write your comments here...</textarea>
+        </div>
+        <div>
+            <label for="fruit">Fruit:</label>
+            <select name="fruits" id="fruit">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Mango">Mango</option>
+            </select>
+        </div>
     </form>
 </body>
+
 </html>
