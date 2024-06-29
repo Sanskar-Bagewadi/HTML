@@ -1,4 +1,15 @@
 body{
-    background-color: blue;
-    color: white;
+    background-color: rgb(110, 226, 203);
+    color: rgb(76, 5, 161);
+}
+h1{
+    align-items: center;
+    text-align: center;
+    color: red;
+}
+p{
+    color: rgb(100, 80, 190);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
 }
