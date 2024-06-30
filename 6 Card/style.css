@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 650px;
+    width: 440px;
+    border: 2px solid black;
+    background-color: rgba(182, 171, 171, 0.245);
+}
+
+.cover{
+    position: relative;
+    top: 23px;
+    margin: auto;
+    min-height: 600px;
+    width: 360px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+.img{
+    position: relative;
+    width: 339px;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+}
+.Tag{
+    display: inline;
+    position: relative;
+    top: 28px;
+    left: 15px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgba(58, 52, 52, 0.514);
+    border-radius: 15px;
+    word-spacing: 4px;
+    box-shadow: 0.1px 0.1px 5px rgba(86, 84, 84, 0.615);
+    color: gray;
+}
+.heading{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-family: 'Baloo Bhai 2';
+    font-size: 35px;
+}
+.t{
+    position: relative;
+    top: 40px;
+    width: 320px;
+    text-align: justify;
+    left: 18px;
+    color: gray;
+}
+.readm{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    top: 70px;
+    left: 80px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(106, 205, 227, 0.566);
+    color: blue;
+}
