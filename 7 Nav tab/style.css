@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    --bgcol: rgb(251, 194, 194);
+    --navbg: hsl(0, 71%, 62%);
+    --navbrdr: rgb(189, 18, 18);
+    --btxt: rgb(241, 218, 189);
+    --bhbg: rgb(208, 152, 152);
+    --bhbr: black;
+}
+body{
+    background-color: var(--bgcol);
+}
+.navigation{
+    background-color: var(--navbg); 
+
+}
+.navigation button{
+    padding: 15px 25px;
+    background-color: var(--navbg);
+    border: none;
+    border-right: 2px solid var(--navbrdr);
+    letter-spacing: 1px;
+    display: inline-block;
+    font-family: 'Baloo Bhai 2';
+    font-size: 18px;
+    color: var(--btxt);
+}
+
+.navigation button:hover{
+    background-color: var(--bhbg);
+    box-shadow: -5px 0px 1px 0px var(--bhbg);
+    border-right: 2px solid var(--bhbr);
+}
+@media only screen and (max-width: 443px){
+    *{
+        margin: 0;
+        padding: 0;
+        --bgcol: rgb(251, 194, 194);
+        --navbg: hsl(0, 71%, 62%);
+        --navbrdr: rgb(189, 18, 18);
+        --btxt: rgb(241, 218, 189);
+        --bhbg: rgb(208, 152, 152);
+        --bhbr: black;
+    }
+    body{
+        background-color: var(--bgcol);
+    }
+    .navigation{
+        background-color: var(--navbg); 
+        width: 100vw;
+    }
+    .navigation button{
+        padding: 0;
+        width: 15vw;
+        height: 30px;
+        display: grid;
+        align-content: center;
+        text-overflow: ellipsis;
+        background-color: var(--navbg);
+        border: none;
+        border-right: 2px solid var(--navbrdr);
+        letter-spacing: 1px;
+        display: inline-block;
+        font-family: 'Baloo Bhai 2';
+        font-size:50%;
+        color: var(--btxt);
+    }
+    
+    .navigation button:hover{
+        background-color: var(--bhbg);
+        box-shadow: -5px 0px 1px 0px var(--bhbg);
+        border-right: 2px solid var(--bhbr);
+    }
+}

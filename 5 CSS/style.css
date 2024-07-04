@@ -12,6 +12,8 @@ div p:first-child {
     font-family: 'Baloo Bhai ', 'Times New Roman', Times, serif;
     background-color: yellow;
     color: red;
+    height: 5vh;
+    overflow: auto;
 }
 
 p {
