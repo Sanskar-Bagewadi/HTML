@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    background-color: blue;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+}
+
+.ball{
+    height: 100px;
+    background-color: red;
+    width: 100px;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: Xmove 3s linear infinite,
+                Ymove 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes Xmove {
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes Ymove {
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 80%;
+    }
+}
